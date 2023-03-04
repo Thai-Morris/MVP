@@ -1,4 +1,4 @@
-const base_url = "https://api.jikan.moe/v3";
+const base_url = "https://api.jikan.moe/v4";
 
 
 function searchAnime(event){
