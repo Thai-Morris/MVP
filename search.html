@@ -72,5 +72,19 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>        
         <script src="./anime.js"></script>
+        <script>
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://script.google.com/macros/s/AKfycbyX858WTeBrGzsJEnwgqPN7tep8RjOf9dEYAQvxw80amGnQyRz0o03Su2T92FD28GNU/exec', true);
+xhr.onload = function() {
+  if (xhr.status === 200) {
+    var data = JSON.parse(xhr.responseText);
+    // Do something with the data
+    // Think of something
+    console.log(data);
+  }
+};
+xhr.send();
+
+</script>
     </body>
 </html>
